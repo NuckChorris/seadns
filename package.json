@@ -1,0 +1,26 @@
+{
+  "name": "sea-dns",
+  "version": "1.0.0",
+  "description": "A DNS server and reverse proxy for docker-based development environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Lejeck <me@plejeck.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-plugin-transform-function-bind": "^6.5.2",
+    "babel-plugin-transform-object-rest-spread": "^6.6.5",
+    "babel-preset-es2015-node": "^5.0.0",
+    "babel-register": "^6.7.2",
+    "commander": "^2.9.0",
+    "dockerode": "^2.2.10",
+    "http-proxy": "^1.13.2",
+    "native-dns": "^0.7.0",
+    "split": "^1.0.0"
+  }
+}
